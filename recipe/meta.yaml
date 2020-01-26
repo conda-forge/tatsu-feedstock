@@ -1,5 +1,5 @@
 {% set name = "tatsu" %}
-{% set version = "4.4.0" %}
+{% set version = "5.0.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neogeny/TatSu/archive/v{{ version }}.tar.gz
-  sha256: db392dffa3a847f748490e7dc5e4a37c6004aa5b4712a8b122ad3fdf43676a3e
+  sha256: e4f85929ca3f526a7fa176cf37b87e8245150135c0c6d84d994023e8abe67e4d
 
 build:
   number: 0
