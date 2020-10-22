@@ -32,7 +32,6 @@ test:
   commands:
     - pip check
     - tatsu --help
-    - g2e --help
   requires:
     - pip
 
