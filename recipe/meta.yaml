@@ -1,5 +1,5 @@
 {% set name = "tatsu" %}
-{% set version = "5.0.0" %}
+{% set version = "5.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neogeny/TatSu/archive/v{{ version }}.tar.gz
-  sha256: e4f85929ca3f526a7fa176cf37b87e8245150135c0c6d84d994023e8abe67e4d
+  sha256: a6c91e41ce501d780dcc5ca6a62020ca44c6eebd8572f95a499600111c7c87ec
 
 build:
   number: 0
@@ -16,7 +16,7 @@ build:
     - g2e = tatsu.g2e:main
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
-  
+
 requirements:
   host:
     - pip
