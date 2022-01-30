@@ -20,10 +20,9 @@ build:
 requirements:
   host:
     - pip
-    - pytest-runner
-    - python >=3.8
+    - python >=3.10
   run:
-    - python >=3.8
+    - python >=3.10
 
 test:
   imports:
