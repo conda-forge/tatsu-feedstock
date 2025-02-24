@@ -1,6 +1,6 @@
 {% set python_min = '3.10' %}
 {% set name = "tatsu" %}
-{% set version = "5.8.2" %}
+{% set version = "5.8.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/neogeny/TatSu/archive/v{{ version }}.tar.gz
-  sha256: cb996fe7f2def527df0d1280d9ffee7a3d3110c9fbfeb4803754331412bcf4e1
+  sha256: f009149a5f6b4a4f048ff4ed02bc0a3c04d8d703c2015f163cd5be7da6daaee9
 
 build:
   number: 1
