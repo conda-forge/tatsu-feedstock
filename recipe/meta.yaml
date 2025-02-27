@@ -1,6 +1,7 @@
 {% set python_min = '3.10' %}
 {% set name = "tatsu" %}
 {% set version = "5.9.2" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
